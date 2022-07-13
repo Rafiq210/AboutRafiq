@@ -804,6 +804,19 @@ a:focus {
 }
 
 @media (max-width: 575.98px) {
+    
+    .hero {
+      height: 650px;
+      background: linear-gradient(rgba(51, 51, 51, 0.12), rgba(0, 0, 0, 0.82)), url("../img/hero.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .hero .hero-content {
+      height: 45rem;
+    }
+    
     .service .service-text h3 {
         font-size: 16px;
         margin-bottom: 5px;
