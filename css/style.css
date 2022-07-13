@@ -818,6 +818,11 @@ a:focus {
       height: 45rem;
     }
     
+    .about .about-img {
+      display: flex;
+      justify-content: center;
+    }
+    
     .service .service-text h3 {
         font-size: 16px;
         margin-bottom: 5px;
