@@ -1,10 +1,13 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
 body {
     color: #797979;
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 :root {
