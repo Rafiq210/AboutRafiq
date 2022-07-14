@@ -1416,7 +1416,7 @@ label {
 }
 
 .contact .contact-form .form-control::placeholder {
-    color: #ffffff;
+    color: silver;
     opacity: 1;
 }
 
