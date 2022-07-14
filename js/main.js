@@ -53,7 +53,7 @@
           
    }  else {
               menu.style.display = "block";                  }                    
-    }
+    };
     
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
