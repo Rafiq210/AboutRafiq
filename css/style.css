@@ -1635,15 +1635,6 @@ label {
     padding-bottom: 25px;
 }
 
-.footer .copyright::before {
-    position: absolute;
-    content: "";
-    width: 50%;
-    height: 1px;
-    top: 0;
-    left: 25%;
-    background: rgba(256, 256, 256, .2);
-}
 
 .footer .copyright p {
     margin: 0;
