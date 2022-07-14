@@ -42,7 +42,7 @@
     
     //Nav close when any item clicked
 
-    $('.navbar-nav>li>a').on('click', function(){
+    $('.nav-item').on('click', function(){
     $('.navbar-collapse').collapse('hide');
     });
     
