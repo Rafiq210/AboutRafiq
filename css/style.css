@@ -1351,6 +1351,10 @@ label {
     background-size: contain;
 }
 
+.form-middle {
+    margin: 0 auto;
+}
+
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
