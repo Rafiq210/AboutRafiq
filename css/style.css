@@ -1355,6 +1355,12 @@ label {
     margin: 0 auto;
 }
 
+.formTitle {
+    color: #f26b41;
+    text-align: center;
+    background: #fff;
+}
+
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
