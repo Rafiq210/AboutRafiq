@@ -52,7 +52,7 @@
         menu.style.display = "none";
           
    }  else {
-              menu.style.display = "block";                  }                    
+              menu.style.display = "block";                     
     };
     
     // Smooth scrolling on the navbar links
