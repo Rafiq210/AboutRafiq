@@ -42,18 +42,18 @@
     
     //Nav close when any item clicked
     
-    var menuItems = document.querySelectorAll(".nav-item");
-    var menu = document.getElementById("navbarCollapse");
-    for (const menuItem of menuItems) {
-      //add click events to menu items
-      menuItem.addEventListener('click', function(event) {
-        //hide menu if click on menu item
-        menu.style.display = "none";
-      } else {
-          menu.style.display = "block";                      
-     }
-                               
-     );
+    function buttonclick()    
+        {    
+        var menuList = document.getElementById("nav-item");    
+        if (menuList.className == "menuOff")    
+        {    
+
+            menuList.className = "menuOn";    
+        } else    
+        {    
+
+            menuList.className = "menuOff";    
+        }    
     }
     
     // Smooth scrolling on the navbar links
