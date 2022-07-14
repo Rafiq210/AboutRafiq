@@ -45,10 +45,10 @@
     var menuItems = document.querySelectorAll(".nav-item");
     var menu = document.getElementById("navbarCollapse");
     button.addEventListener('click', function(event) {
-      if (menu.style.display == "block") {
-        menu.style.display = "none";
+      if (navbarCollapse.style.display == "block") {
+        navbarCollapse.style.display = "none";
       } else {
-        menu.style.display == "block";
+        navbarCollapse.style.display == "block";
       }
     });
     
