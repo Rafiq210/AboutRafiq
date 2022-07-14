@@ -1355,8 +1355,6 @@ label {
     position: relative;
     padding: 90px 0 90px 45px;
     background: var(--colorThemePrimary);
-    border: 23px solid white;
-    border-radius: 30px;
 }
 
 .contact .contact-form input {
@@ -1626,5 +1624,11 @@ label {
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
+    }
+    
+    .contact .contact-form {
+
+        border: 23px solid white;
+        border-radius: 30px;
     }
 }
