@@ -659,24 +659,32 @@
                         <div class="col-md-8">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form id="contactForm" method="POST" novalidate="novalidate" data-netlify="true" data-netlify-recaptcha="true">
-                                    <div class="control-group">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" name="message" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block"></p>
-                                    </div>
 
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
-                                </form>
+
+                            
+                            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                            <p>
+                                <label>Your Name: <input type="text" name="name" /></label>
+                            </p>
+                            <p>
+                                <label>Your Email: <input type="email" name="email" /></label>
+                             </p>
+                             <p>
+                                <label>Message: <textarea name="message"></textarea></label>
+                             </p>
+                              <p>
+                                <label>
+                                    <span>Add file if you need to:</span>
+                                     <input name="file" type="file"/>
+                                </label>
+                              </p>
+                              </p>
+                                   <div data-netlify-recaptcha="true"></div>
+                              <p>
+                              <p>
+                                <button type="submit">Send</button>
+                              </p>
+                            </form>
 
                             </div>
                         </div>
