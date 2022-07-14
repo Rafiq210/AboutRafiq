@@ -42,19 +42,19 @@
     
     //Nav close when any item clicked
 
-    
+    $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+    });
     
     
 
     
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
-        $(".navbarCollapse").hide();
+
         if (this.hash !== "") {
             event.preventDefault();
-            
-            
-            
+             
             $('html, body').animate({
                 scrollTop: $(this.hash).offset().top - 45
             }, 1500, 'easeInOutExpo');
