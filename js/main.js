@@ -45,13 +45,13 @@
     var menuItems = document.querySelectorAll(".nav-item");
     var menu = document.getElementById("navbarCollapse");
     
-    menu.style.display = "block";
+    menu.style.display = "none";
     
     for (const menuItem of menuItems) {
       //add click events to menu items
       menuItem.addEventListener('click', function(event) {
         //hide menu if click on menu item
-        menu.style.display = "none";
+        menu.style.display = "block";
           
       }                        
      );
