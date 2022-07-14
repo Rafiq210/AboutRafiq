@@ -182,12 +182,16 @@ label {
 
 .navbar-toggler {
     padding: 0px 6px !important;
-    background-color: #ae6d5c45 !important;
+    background-color: transparent !important;
 } 
 
 .navbar-toggler img {
     height: 3rem;
     width: auto;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgb(242, 107, 65) !important;
 }
 
 @media (min-width: 992px) {
