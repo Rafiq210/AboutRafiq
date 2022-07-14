@@ -48,12 +48,10 @@
     
     
     if (menu.style.display = "block") {
-      //add click events to menu items
-      menuItem.addEventListener('click', function(event) {
-        //hide menu if click on menu item
+
         menu.style.display = "none";
           
-      }  }  else {
+   }  else {
               menu.style.display = "block";                  }                    
     }
     
