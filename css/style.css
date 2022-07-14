@@ -50,6 +50,20 @@ label {
     max-width: 1366px;
 }
 
+
+
+    .menuOff     
+    {    
+        display: none;    
+    }    
+        
+    .menuOn    
+    {    
+        display: block;    
+    }  
+
+
+
 .btn {
     padding: 12px 25px;
     font-size: 14px;
