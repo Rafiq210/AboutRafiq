@@ -156,6 +156,18 @@ label {
 }
 
 
+.exp-type {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #f26b41;
+}
+
+.exp-type::before {
+    content: "-";
+
+}
+
+
 /**********************************/
 /*********** Nav Bar CSS **********/
 /**********************************/
