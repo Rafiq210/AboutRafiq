@@ -49,6 +49,7 @@
       menuItem.addEventListener('click', function(event) {
         //hide menu if click on menu item
         menu.style.display = "none";
+          menu.style.display = "block";
       }                        
      );
     }
