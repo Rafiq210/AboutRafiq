@@ -1582,8 +1582,7 @@ label {
 
 .footer .footer-menu {
     width: 100%;
-    display: flex;
-    justify-content: center;
+
 }
 
 .footer .footer-menu p {
