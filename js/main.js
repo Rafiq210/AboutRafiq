@@ -44,7 +44,7 @@
     
     function buttonclick()    
         {    
-        var menuList = document.getElementById("navbarCollapse");    
+        var menuList = document.getElementById("nav-item");    
         if (menuList.className == "menuOff")    
         {    
 
