@@ -53,9 +53,8 @@
         //hide menu if click on menu item
         menu.style.display = "none";
           
-      }    else {
+      }  }  else {
               menu.style.display = "block";                  }                    
-     );
     }
     
     // Smooth scrolling on the navbar links
