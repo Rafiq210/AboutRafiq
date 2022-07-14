@@ -44,13 +44,13 @@
     
     var menuItems = document.querySelectorAll(".nav-item");
     var menu = document.getElementById("navbarCollapse");
-    for (const menuItem of menuItems) {
-      //add click events to menu items
-      menuItem.addEventListener('click', function(event) {
-        //hide menu if click on menu item
+    button.addEventListener('click', function(event) {
+      if (menu.style.display == "block") {
         menu.style.display = "none";
-      });
-    }
+      } else {
+        menu.style.display == "block";
+      }
+    });
     
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
