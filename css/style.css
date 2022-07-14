@@ -37,6 +37,10 @@ a:focus {
     text-decoration: none;
 }
 
+label {
+    color: white;
+}
+
 .btn:focus,
 .form-control:focus {
     box-shadow: none;
