@@ -42,9 +42,6 @@
     
     //Nav close when any item clicked
 
-    $("navbarCollapse a").click(function () {
-    $(".navbarCollapse").hide();
-    });
     
     
     
@@ -52,8 +49,11 @@
     
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
+        $(".navbarCollapse").hide();
         if (this.hash !== "") {
             event.preventDefault();
+            
+            
             
             $('html, body').animate({
                 scrollTop: $(this.hash).offset().top - 45
