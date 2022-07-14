@@ -41,19 +41,14 @@
     
     
     //Nav close when any item clicked
-    
-    var menuItems = document.querySelectorAll(".nav-item");
-    var menu = document.getElementById("navbarCollapse");
-    
-    
-    
-    if (menu.style.display = "block") {
 
-        menu.style.display = "none";
-          
-   }  else {
-              menu.style.display = "block";                     
-    };
+    $("navbarCollapse a").click(function () {
+    $(".navbarCollapse").hide();
+    });
+    
+    
+    
+
     
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
