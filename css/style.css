@@ -722,11 +722,23 @@ label {
   border-color: transparent #dddddd transparent transparent;
 }
 
-.education .timeline .timeline-date, .experience .timeline .timeline-date {
+.experience .timeline .timeline-date {
     position: absolute;
     width: 100%;
     top: 44px;
-    font-size: 16px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--colorThemePrimary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.education .timeline .timeline-date {
+
+    width: 100%;
+    top: 44px;
+    font-size: 0.7rem;
     font-weight: 600;
     color: var(--colorThemePrimary);
     text-transform: uppercase;
