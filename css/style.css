@@ -1026,9 +1026,8 @@ label {
 
 .portfolio .portfolio-text {
     position: relative;
-    height: 60px;
     width: calc(100% - 30px);
-    margin: -30px 15px 30px 15px;
+    margin: -20px 0 0 45px;
     display: flex;
     align-items: center;
     background: #ffffff;
@@ -1045,13 +1044,13 @@ label {
 }
 
 .portfolio .portfolio-text a.btn {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     padding: 0 0 2px 1px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 100;
 }
 
