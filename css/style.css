@@ -928,7 +928,7 @@ label {
       justify-content: center;
     }
     
-    .experience .timeline .timeline-text {
+    .education .timeline .timeline-text, .experience .timeline .timeline-text {
       padding: 15px;
 
     }
