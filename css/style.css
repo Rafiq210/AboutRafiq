@@ -487,7 +487,7 @@ label {
     margin-bottom: 0px;
 }
 
-.section-header p {
+.edu-section-header p, .section-header p {
     display: inline-block;
     margin: 0 30px;
     margin-bottom: 10px;
@@ -500,7 +500,7 @@ label {
     background: #ffffff;
 }
 
-.section-header p::before {
+.edu-section-header p::before, .section-header p::before {
     position: absolute;
     content: "";
     height: 3px;
@@ -511,7 +511,7 @@ label {
     z-index: -1;
 }
 
-.section-header p::after {
+.edu-section-header p::after, .section-header p::after {
     position: absolute;
     content: "";
     width: 3px;
@@ -522,7 +522,7 @@ label {
     z-index: 1;
 }
 
-.section-header h2 {
+.edu-section-header h2, .section-header h2 {
     margin: 0;
     position: relative;
     font-size: 45px;
@@ -530,7 +530,7 @@ label {
 }
 
 @media (max-width: 767.98px) {
-    .section-header h2 {
+    .edu-section-header h2, .section-header h2 {
         font-size: 30px;
     }
 }
