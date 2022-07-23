@@ -912,6 +912,11 @@ label {
       justify-content: center;
     }
     
+    .experience .timeline .timeline-text {
+      padding: 15px;
+
+    }
+    
     .service .service-text h3 {
         font-size: 16px;
         margin-bottom: 5px;
