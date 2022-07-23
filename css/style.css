@@ -484,7 +484,7 @@ label {
 
 .edu-section-header {
     position: relative;
-    margin-bottom: 0px;
+    margin-bottom: 2rem;
 }
 
 .edu-section-header p, .section-header p {
@@ -681,6 +681,11 @@ label {
     background: inherit;
     width: 50%;
     margin-bottom: 30px;
+}
+
+.education .timeline .timeline-item {
+    
+    margin-bottom: 1rem;
 }
 
 .experience .timeline .timeline-item.left {
