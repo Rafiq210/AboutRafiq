@@ -691,7 +691,7 @@ label {
 .experience .timeline .timeline-item::after {
     content: '';
     position: absolute;
-    width: 16px;
+    width: 0.9rem;
     height: 16px;
     top: 48px;
     right: -8px;
@@ -773,6 +773,10 @@ label {
 .experience .timeline .timeline-text p {
     margin: 0;
     font-size: 16px;
+}
+
+.experience .timeline .timeline-text a {
+    font-size: 0.8rem;
 }
 
 @media (max-width: 767.98px) {
