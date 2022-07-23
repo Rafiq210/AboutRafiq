@@ -482,6 +482,11 @@ label {
     margin-bottom: 45px;
 }
 
+.edu-section-header {
+    position: relative;
+    margin-bottom: 0px;
+}
+
 .section-header p {
     display: inline-block;
     margin: 0 30px;
