@@ -1027,7 +1027,7 @@ label {
 .portfolio .portfolio-text {
     position: relative;
     width: calc(100% - 30px);
-    margin: -20px 0 0 45px;
+    margin: -2.1rem 0 0 45px;
     display: flex;
     align-items: center;
     background: #ffffff;
