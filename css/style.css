@@ -157,7 +157,7 @@ label {
 
 
 .exp-type {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     font-weight: bold;
     color: #f26b41;
 }
@@ -776,7 +776,7 @@ label {
 }
 
 .experience .timeline .timeline-text a {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 @media (max-width: 767.98px) {
