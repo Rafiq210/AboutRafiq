@@ -660,7 +660,7 @@ label {
     width: 100%;
 }
  
-.education .experience .timeline::after {
+.experience .timeline::after {
     content: '';
     position: absolute;
     width: 2px;
@@ -722,7 +722,7 @@ label {
   border-color: transparent #dddddd transparent transparent;
 }
 
-.education .experience .timeline .timeline-date {
+.education .timeline .timeline-date, .experience .timeline .timeline-date {
     position: absolute;
     width: 100%;
     top: 44px;
@@ -744,7 +744,7 @@ label {
     right: calc(100% + 55px);
 }
 
-.education .experience .timeline .timeline-text {
+.education .timeline .timeline-text, .experience .timeline .timeline-text {
     padding: 30px;
     background: #ffffff;
     position: relative;
@@ -752,30 +752,30 @@ label {
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
 }
 
-.education .experience .timeline .timeline-item.right .timeline-text {
+.education .timeline .timeline-item.right .timeline-text, .experience .timeline .timeline-item.right .timeline-text {
     border-right: none;
     border-left: 5px solid #dddddd;
 }
 
-.education .experience .timeline .timeline-text h2 {
+.education .timeline .timeline-text h2, .experience .timeline .timeline-text h2 {
     margin: 0 0 5px 0;
     font-size: 1.1rem;
     font-weight: 600;
 }
 
-.education .experience .timeline .timeline-text h4 {
+.education .timeline .timeline-text h4, .experience .timeline .timeline-text h4 {
     margin: 0 0 10px 0;
     font-size: 1rem;
     font-weight: 500;
     color: #9e34f7;
 }
 
-.education .experience .timeline .timeline-text p {
+.education .timeline .timeline-text p, .experience .timeline .timeline-text p {
     margin: 0;
     font-size: 0.8rem;
 }
 
-.education .experience .timeline .timeline-text a {
+.education .timeline .timeline-text a, .experience .timeline .timeline-text a {
     font-size: 0.7rem;
 }
 
@@ -819,8 +819,8 @@ label {
         margin-bottom: 10px;
     }
     
-    .education .experience .timeline .timeline-item.left .timeline-text,
-    .education .experience .timeline .timeline-item.right .timeline-text {
+    .education .timeline .timeline-item.left .timeline-text, .experience .timeline .timeline-item.left .timeline-text,
+    .education .timeline .timeline-item.right .timeline-text, .experience .timeline .timeline-item.right .timeline-text {
         border-right: none;
         border-left: 5px solid #dddddd;
     }
