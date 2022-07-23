@@ -659,8 +659,8 @@ label {
     position: relative;
     width: 100%;
 }
-
-.experience .timeline::after {
+ 
+.education .experience .timeline::after {
     content: '';
     position: absolute;
     width: 2px;
@@ -722,7 +722,7 @@ label {
   border-color: transparent #dddddd transparent transparent;
 }
 
-.experience .timeline .timeline-date {
+.education .experience .timeline .timeline-date {
     position: absolute;
     width: 100%;
     top: 44px;
@@ -744,7 +744,7 @@ label {
     right: calc(100% + 55px);
 }
 
-.experience .timeline .timeline-text {
+.education .experience .timeline .timeline-text {
     padding: 30px;
     background: #ffffff;
     position: relative;
@@ -752,30 +752,30 @@ label {
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
 }
 
-.experience .timeline .timeline-item.right .timeline-text {
+.education .experience .timeline .timeline-item.right .timeline-text {
     border-right: none;
     border-left: 5px solid #dddddd;
 }
 
-.experience .timeline .timeline-text h2 {
+.education .experience .timeline .timeline-text h2 {
     margin: 0 0 5px 0;
     font-size: 1.1rem;
     font-weight: 600;
 }
 
-.experience .timeline .timeline-text h4 {
+.education .experience .timeline .timeline-text h4 {
     margin: 0 0 10px 0;
     font-size: 1rem;
     font-weight: 500;
     color: #9e34f7;
 }
 
-.experience .timeline .timeline-text p {
+.education .experience .timeline .timeline-text p {
     margin: 0;
     font-size: 0.8rem;
 }
 
-.experience .timeline .timeline-text a {
+.education .experience .timeline .timeline-text a {
     font-size: 0.7rem;
 }
 
@@ -819,8 +819,8 @@ label {
         margin-bottom: 10px;
     }
     
-    .experience .timeline .timeline-item.left .timeline-text,
-    .experience .timeline .timeline-item.right .timeline-text {
+    .education .experience .timeline .timeline-item.left .timeline-text,
+    .education .experience .timeline .timeline-item.right .timeline-text {
         border-right: none;
         border-left: 5px solid #dddddd;
     }
